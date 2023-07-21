@@ -2,8 +2,8 @@ import React from 'react'
 
 function App() {
   return (
-    <div>FUCK YOU!</div>
+    <div>Evrything update!!!</div>
   )
 }
 
-export default App
+export default App;

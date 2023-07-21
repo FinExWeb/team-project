@@ -1,0 +1,16 @@
+Step 1 {
+    git clone https://....
+}
+
+Step 2 {
+    git init 
+    git add .
+    git commit -m "message"
+    git branch -m master
+    git config --global user.name "github name"
+    git config --global user.email "github email"
+    git push -u origin master
+}
+
+
+git pull
