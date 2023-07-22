@@ -7,12 +7,12 @@ function Navbar() {
         <>
             <div className="navbar">
                 <img src={Logo} alt="" />
-                <ul>
-                    <li><Link to="/home">Home</Link></li>
-                    <li><Link to="/tracking">Tracking</Link></li>
-                    <li><Link to="/shipping">Shipping</Link></li>
-                    <li><Link to="/locations">Locations</Link></li>
-                    <li><Link to="/supports">Support</Link></li>
+                <ul className='home'>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/tracking">Tracking</a></li>
+                    <li><a href="/shipping">Shipping</a></li>
+                    <li><a href="/locations">Locations</a></li>
+                    <li><a href="/supports">Support</a></li>
                 </ul>
                 <div className='buttons'>
                     <button className='signin'>SignIn</button>
